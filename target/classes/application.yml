@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/vivianaortiz
+    driverClassName: org.postgresql.Driver
+    username: vivianaortiz
+    password: vivianaortiz
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQL9Dialect 
+server:
+  error:
+    include-message: always
+    include-binding-errors: always
